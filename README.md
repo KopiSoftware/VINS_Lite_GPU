@@ -15,6 +15,7 @@ VINS FUSION GPU lite version.
 ---
 
 ## Installation
-Please follow original [VINS FUSION GPU](https://github.com/pjrambo/VINS-Fusion-gpu). The installation process is identical.
+Please follow original [VINS FUSION GPU](https://github.com/pjrambo/VINS-Fusion-gpu). The installation process is identical. You may need vitrual memory to compile the program.
 
-
+## Acknowledgment
+The Jetson devices in our experiment is supported by NVIDIA Jetson Nano 2GB Developer Kit Grant Program
