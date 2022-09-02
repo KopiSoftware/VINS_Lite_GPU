@@ -10,8 +10,8 @@ Update:
   - demostration video: [https://www.bilibili.com/video/BV1WT411c7ND?spm_id_from=333.337.search-card.all.click](https://www.bilibili.com/video/BV1WT411c7ND?spm_id_from=333.337.search-card.all.click)
 
   - Some old opencv api has been updated.
-  - Opencv image display is removed, for remote ssh startup. Now we can get visualization information from rviz instead of `cv::imshow`.
-
+  - Disable `show_track` in configuration yaml if it start up with a remote ssh.
+  - Rebundent dictionary file has removed.
 
 ## Our works
 
