@@ -1,8 +1,17 @@
 # VINS_Lite_GPU
 
 VINS FUSION GPU lite version. 
+---
+
+![vins_lite_gpu-2](https://user-images.githubusercontent.com/17807222/124372174-6c5d9700-dcbb-11eb-8bec-cb5755701528.png)
 
 --- 
+Update:
+  - demostration video: [https://www.bilibili.com/video/BV1WT411c7ND?spm_id_from=333.337.search-card.all.click](https://www.bilibili.com/video/BV1WT411c7ND?spm_id_from=333.337.search-card.all.click)
+
+  - Some old opencv api has been updated.
+  - Opencv image display is removed, for remote ssh startup. Now we can get visualization information from rviz instead of `cv::imshow`.
+
 
 ## Our works
 
@@ -10,7 +19,8 @@ VINS FUSION GPU lite version.
 - We trained a DBOW vocabulary with LIP6Indoor dataset. This model achieves 95% of the performance of the original model, and much smaller.
 - We have test this model on Nvidia Jetson Nano 2GB version with MYNTEYE s1030-ir. The RAM consumption is about 60MB when program starts up. The usage of RAM will increase with the number of keyframe or running time. The GPU consumption is about 20%.  
 
-![vins_lite_gpu-2](https://user-images.githubusercontent.com/17807222/124372174-6c5d9700-dcbb-11eb-8bec-cb5755701528.png)
+---
+
 
 ---
 
@@ -28,4 +38,4 @@ max_num_iterations: 4   # max solver itrations, to guarantee real time
 Please follow original [VINS FUSION GPU](https://github.com/pjrambo/VINS-Fusion-gpu). The installation process is identical. You may need vitrual memory to compile the program.
 
 ## Acknowledgment
-The Jetson devices in our experiment is supported by NVIDIA Jetson Nano 2GB Developer Kit Grant Program
+The Jetson devices in our experiment is supported by NVIDIA Jetson Nano 2GB Developer Kit Grant Program.
