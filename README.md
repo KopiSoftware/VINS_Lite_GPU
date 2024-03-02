@@ -7,7 +7,7 @@ VINS FUSION GPU lite version.
 
 --- 
 Update:
-  - demostration video: [https://www.bilibili.com/video/BV1WT411c7ND?spm_id_from=333.337.search-card.all.click](https://www.bilibili.com/video/BV1WT411c7ND?spm_id_from=333.337.search-card.all.click)
+  - demostration video: [https://youtu.be/q81QQVIy3yA?feature=shared](https://youtu.be/q81QQVIy3yA?feature=shared)
 
   - Some old opencv api has been updated.
   - Disable `show_track` in configuration yaml if it start up with a remote ssh.
